@@ -1,0 +1,246 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+        display: block;
+}
+body {
+        line-height: 1;
+}
+ol, ul {
+        list-style: none;
+}
+blockquote, q {
+        quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+        content: '';
+        content: none;
+}
+table {
+        border-collapse: collapse;
+        border-spacing: 0;
+}
+
+
+li {
+        display: inline;
+        padding: 3px;
+
+}
+
+li.welcome {
+    color: #ee8200;
+}
+
+.top-div, .nav-links {
+        padding: 14px;
+        padding-bottom: 25px;
+        color: #00578a;
+        margin-bottom: 15px;
+        font-family: 'Lato', sans-serif;
+        background-color: #f9f7f7;
+}
+.top-nav {
+        float: right;
+        padding-right: 5px;
+}
+
+
+.logo-banner{
+       height: 141px;
+       clear: both;
+       margin: auto;
+       overflow: hidden;
+}
+
+.img-container {
+    position: relative;
+    width: 30%;
+    float: left;
+}
+
+img {
+    max-width: 100%;
+}
+
+li, p, h2 {
+  font-family: 'Lato', sans-serif;
+}
+
+.Urgent-Message, .Current-Message {
+    background-color: white;
+    height: 158px;
+    width: 100%;
+    border: 5px solid #f9f7f7;
+    border-radius: 10px;
+}
+.Urgent-Message {
+    margin-bottom: 10px;
+}
+
+h2.heading {
+    font-size: 18pt;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    margin-bottom: 7px;
+    background-color: #f9f7f7;
+}
+h2.urgent {
+  color: #ec1c2e;
+}
+
+h2.current {
+  color: #00578a;
+}
+
+p.Current-Message, p.Urgent-Message {
+  padding-left: 5px;
+}
+
+.main-container {
+  text-align: center;
+  margin: 0 10px;
+}
+
+.main-content {
+    clear: both;
+    float: left;
+}
+
+.container1 {
+    width: 74%;
+    float: left;
+    position: relative;
+}
+
+.container2 {
+    width: 25%;
+    float: right;
+    position: relative;
+    padding-left: 8px;
+}
+footer {
+    text-align: center;
+    background-color: #00578a;
+    padding: 15px;
+    margin-top: 60px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+  i.fa.fa-bars {
+    display: none;
+  }
+
+/* Responsive */
+
+@media (min-width: 900px) {
+
+  #icon-nav {
+    position: absolute;
+    left: 11px;
+    display:inline;
+  }
+
+
+  .dropdown-icon {
+      position: relative;
+      display: inline-block;
+      height: 67px;
+      width: 100px
+  }
+
+  .dropdown-nav-links {
+    display: none;
+    position: absolute;
+    background-color: black;
+		opacity: 0.9;
+    min-width: 130px;
+    right: 0;
+    top: 65px;
+    z-index: 400;
+  }
+
+  .nav-links {
+
+    display: none;
+  }
+
+  .dropdown-nav-links a{
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+
+  }
+
+  .dropdown-icon:hover .dropdown-nav-links {
+      display: block;
+  }
+
+  .dropdown-icon:hover .icon-nav{
+      color: #ee8200;
+
+  }
+
+  #icon-nav {
+    float: right;
+    width: 50px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid;
+    border-radius: 9px;
+    color: black;
+    padding: 9px 1px;
+    margin-right: 10px;
+}
+
+
+
+
+  .container1 {
+    text-align: center;
+    width:100%;
+  }
+
+  .container2 {
+    padding-left: 10%;
+    margin: auto;
+    width: 80%;
+    float: left;
+
+  }
+
+}
